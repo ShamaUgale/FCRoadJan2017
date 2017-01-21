@@ -63,6 +63,13 @@ public class SeleniumUtils {
 	}
 	
 	
+	public String getPageSource() {
+
+		String url=driver.getPageSource();
+		return url;
+		
+	}
+	
 	public static void navigate(String URL){
 		driver.navigate().to(URL);
 	}
