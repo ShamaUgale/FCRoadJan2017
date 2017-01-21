@@ -62,6 +62,12 @@ public class SeleniumUtils {
 	
 	}
 	
+	public String getCurrentURL() {
+
+		String url=driver.getCurrentUrl();
+		return url;
+		
+	}
 	
 	public static void navigate(String URL){
 		driver.navigate().to(URL);
