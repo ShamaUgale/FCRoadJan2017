@@ -24,7 +24,8 @@ public class SeleniumUtils {
 	public static WebDriver driver= TestBase.driver;
 	final static Logger logger = Logger.getLogger(SeleniumUtils.class);
  
-	
+	// adding an ssh key to ur repo
+	// https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 	
 	public static void openBrowser(){
 
