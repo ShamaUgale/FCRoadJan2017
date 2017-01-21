@@ -1,0 +1,20 @@
+=======================  Maven setup Local ========================
+video - https://www.youtube.com/watch?v=Jtj-0yhox5s
+article - https://www.mkyong.com/maven/how-to-install-maven-in-windows/
+maven download - https://maven.apache.org/download.cgi
+
+
+
+==================== maven setup eclipse ========================
+go to help--- eclipse market place --- search for m2e , install plugin
+
+
+
+======================== page object model info ===================
+
+
+
+================ maven online repo =============================
+
+https://mvnrepository.com/
+
