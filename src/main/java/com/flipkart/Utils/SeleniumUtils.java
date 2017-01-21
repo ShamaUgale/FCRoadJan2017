@@ -27,7 +27,7 @@ public class SeleniumUtils {
 	
 	
 	public static void openBrowser(){
-		logger.debug("Executing 'open browser'");
+		logger.debug("Executing 'open browser' platform only");
 		String browser= TestBase.CONFIG.getProperty("browser");
 		logger.debug("The browser parameter is -" + browser);
 		int implicitWait= Integer.parseInt(TestBase.CONFIG.getProperty("implicitWait"));
