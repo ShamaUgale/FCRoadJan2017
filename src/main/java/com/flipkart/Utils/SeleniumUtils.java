@@ -27,6 +27,7 @@ public class SeleniumUtils {
 	
 	
 	public static void openBrowser(){
+
 		logger.debug("Executing 'open browser' on platform");
 		String browser= TestBase.CONFIG.getProperty("browser");
 		logger.debug("The browser parameter is -" + browser);
