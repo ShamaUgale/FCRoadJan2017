@@ -27,7 +27,8 @@ public class SeleniumUtils {
 	
 	
 	public static void openBrowser(){
-		logger.debug("Executing 'open browser' platform only");
+
+		logger.debug("Executing 'open browser' on platform");
 		String browser= TestBase.CONFIG.getProperty("browser");
 		logger.debug("The browser parameter is -" + browser);
 		int implicitWait= Integer.parseInt(TestBase.CONFIG.getProperty("implicitWait"));
@@ -62,6 +63,12 @@ public class SeleniumUtils {
 	
 	}
 	
+	public String getCurrentURL() {
+
+		String url=driver.getCurrentUrl();
+		return url;
+		
+	}
 	
 	public String getPageSource() {
 
