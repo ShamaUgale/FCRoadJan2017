@@ -1,6 +1,6 @@
 <suite name="Flipkart tests">
 
-	<test name="Header Tests">
+	<test name="footertests Tests">
 		<classes>
 			<class name="com.filpkart.ProductsearchTest.HeaderLinksTest"/>
 			<class name="com.filpkart.ProductsearchTest.SearchTest"/>
